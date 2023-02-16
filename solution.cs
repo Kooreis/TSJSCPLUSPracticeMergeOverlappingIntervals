@@ -1,3 +1,1 @@
-function mergeIntervals(intervals) {
-    if (!intervals.length) return intervals;
-}
+intervals.sort((a, b) => a[0] - b[0]);
